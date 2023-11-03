@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*::selection {
+    color: white;
+    background-color: black;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#nav #nav-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#nav-part1 {
+    /* background-color: RED; */
+    height: 82px;
+    overflow: hidden;
+}
+
+#nav-part1 svg {
+    display: block;
+}
+
+#nav-part2 #links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+#nav-part2 #icons i {
+    font-size: 1p5x;
+    padding: 12px;
+    margin: 10px;
+}
+
+#cursor {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(243, 203, 144);
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+#page1 {
+    min-height: 100vh;
+    /* background-color: aqua; */
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 1vw;
+    padding-top: 15vh;
+}
+
+#page1 h1 {
+    font-size: 8vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    line-height: 6vw;
+    letter-spacing: -5px;
+}
+
+#video-container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 1vw;
+    position: relative;
+}
+
+#video-container video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#video-container #play {
+    padding: 3vw 2vw;
+    background-color: black;
+    color: wheat;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 2vw 2vw;
+    justify-content: space-between;
+}
+
+#page2 .elem {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page2 .elem img {
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    /* object-fit: cover; */
+    scale: 1.1;
+}
+
+#page2 .elem .dets {
+    height: 8%;
+    border-radius: 50px;
+    width: 65%;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    /* transform: translate(-50%); */
+    background-color: rgb(226, 211, 239);
+    align-items: center;
+}
+
+#page2 .elem .dets:hover {
+    height: 10%;
+}
+
+#page3 {
+    min-height: 130vh;
+    width: 100%;
+    /* background-color: rgb(240, 248, 255); */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#page3 .child {
+    height: 54vh;
+    width: 38vw;
+    /* border: 2px solid rgb(204, 142, 142); */
+    /* background-color: rgb(247, 211, 211); */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page3 .child img {
+    height: 100%;
+
+}
+
+@media (max-width:600px) {
+    #nav {
+        /* height: 100px; */
+        width: 100%;
+        /* background-color: burlywood; */
+        position: fixed;
+        z-index: 99;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    #nav #nav-part2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #links {
+        padding: 10px;
+        display: none;
+    }
+
+    #nav-part1 {
+        /* background-color: RED; */
+        height: 67px;
+        overflow: hidden;
+        /* position: relative; */
+    }
+
+    #nav-part1 svg {
+        display: block;
+        height: 67px;
+        width: 80px;
+    }
+    #nav #twogood{
+        margin-left: 11px;
+    }
+    #nav #twogoodlogo{
+        height: 50px;
+        margin-left: -10px;
+        margin-top: 15px;
+    }
+
+    #icons {
+        padding: 7px;
+        border-radius: 50px;
+        background-color: #F7F7F7;
+    }
+
+    #nav-part2 #icons i {
+        font-size: 15px;
+        margin: 0 20px;
+        font-weight: 100;
+    }
+
+
+    #page1 {
+        min-height: 70vh;
+        width: 100%;
+        padding: 0 3vw;
+        /* margin: 100px; */
+        padding-top: 25vh;
+    }
+
+    #page1 h1 {
+        font-size: 7vw;
+        line-height: 7vw;
+        letter-spacing: -3px;
+    }
+#nav #twogoodlogo{
+    height: 40px;
+}
+    #video-container {
+        height: 50vw;
+        margin-top: 2vw;
+    }
+
+    #video-container #play {
+        padding: 4vw 3vw;
+        background-color: black;
+        color: wheat;
+        position: absolute;
+        font-size: 3.5vw;
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+        scale: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    #page2 {
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        padding: 3vw 3vw;
+        flex-direction: column;
+        object-fit: cover;
+        justify-content: space-between;
+    }
+
+    #page2 .elem .dets {
+        height: 5%;
+        border-radius: 50px;
+        width: 50%;
+        position: absolute;
+        z-index: 9;
+        top: 50%;
+        /* transform: translate(-50%); */
+        background-color: rgb(226, 211, 239);
+        align-items: center;
+    }
+
+    #page3 {
+        min-height: 150vh;
+        width: 100%;
+    }
+    
+    #page3 .child {
+        height: 64vh;
+        width: 88vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #page3 .child img {
+        height: 100%;
+    }
+    
+}
