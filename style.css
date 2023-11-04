@@ -249,7 +249,7 @@ body {
 
 
     #page1 {
-        min-height: 60vh;
+        min-height: 55vh;
         width: 100%;
         padding: 0 3vw;
         /* margin: 100px; */
@@ -300,8 +300,8 @@ body {
         padding: 11px;
         /* object-fit: cover; */
         scale: 1.1;
-        padding: 35px;
-        padding-bottom: 40px;
+        padding: 15px;
+        padding-bottom: 20px;
     }
 
     #page2 .elem .dets {
@@ -319,15 +319,17 @@ body {
     #page3 {
         height: 80vh;
         width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
     }
 
     #page3 .child {
         height: 54vh;
         width: 70vw;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        
 
     }
 
