@@ -247,7 +247,11 @@ body {
         font-weight: 100;
     }
 
-
+#main{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
     #page1 {
         min-height: 55vh;
         width: 100%;
@@ -294,7 +298,7 @@ body {
         justify-content: space-between;
     }
 
-    #page2 elem img {
+    #page2 .elem img {
         height: 80%;
         width: 80%;
         padding: 11px;
