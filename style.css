@@ -246,11 +246,12 @@ body {
         font-weight: 100;
     }
 
-/* #main{
+ #main{
     display: block;
     text-align: center;
     justify-content: center;
-} */
+         flex-direction: column;
+} 
     #page1 {
         min-height: 40vh;
         width: 100%;
