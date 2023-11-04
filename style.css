@@ -300,8 +300,8 @@ body {
         padding: 11px;
         /* object-fit: cover; */
         scale: 1.1;
-        padding: 15px;
-        padding-bottom: 20px;
+        padding: 10px;
+        /* padding-bottom: 20px; */
     }
 
     #page2 .elem .dets {
