@@ -225,13 +225,13 @@ body {
     }
 
     #nav #twogood {
-        margin-left: 11px;
+        margin-left: 0px;
     }
 
     #nav #twogoodlogo {
         height: 50px;
-        margin-left: -10px;
-        margin-top: 15px;
+        margin-left: -19px;
+        margin-top: 35px;
     }
 
     #icons {
@@ -252,11 +252,11 @@ body {
     justify-content: center;
 } */
     #page1 {
-        min-height: 55vh;
+        min-height: 40vh;
         width: 100%;
         padding: 0 3vw;
         /* margin: 100px; */
-        padding-top: 15vh;
+        padding-top: 10vh;
     }
 
     #page1 h1 {
@@ -304,8 +304,9 @@ body {
         padding: 11px;
         /* object-fit: cover; */
         scale: 1.1;
-        padding: 10px;
-        /* padding-bottom: 20px; */
+        /* padding: 10px; */
+        padding-bottom: 5px;
+        margin: 20px;
     }
 
     #page2 .elem .dets {
@@ -323,22 +324,22 @@ body {
     #page3 {
         height: 80vh;
         width: 100%;
-        position: relative;
+        /* position: relative; */
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px;
+        padding: 10px;
     }
 
     #page3 .child {
         height: 54vh;
         width: 70vw;
-        
-
+    
     }
 
     #page3 .child img {
         height: 80%;
+        padding:10px;
     }
 
 }
