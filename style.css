@@ -16,7 +16,6 @@ body {
     width: 100%;
     background-color: #f7f7f7;
 }
-
 #nav {
     height: 100px;
     width: 100%;
@@ -288,6 +287,10 @@ body {
         transform: translate(-50%, -50%);
     }
 
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
     #page2 {
         height: 100%;
         width: 100%;
