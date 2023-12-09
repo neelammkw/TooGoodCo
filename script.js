@@ -1,4 +1,4 @@
-// 
+ 
 function locomotiveAnimation(){
 gsap.registerPlugin(ScrollTrigger);
 
@@ -33,6 +33,7 @@ ScrollTrigger.refresh();
 
 }
 locomotiveAnimation();
+
 function loadinganimation() {
   gsap.from("#page1 h1", {
     y: 70,
